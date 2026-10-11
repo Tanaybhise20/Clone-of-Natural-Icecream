@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+:root{
+    --green-color: rgb(55, 198, 81);
+}
+.customFirstHeader{
+    color: white;
+    background-color: var(--green-color);
+}
+.navbar{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo img{
+    width: 250px;
+    height: auto;
+    display: block;
+}
+.button{
+    margin-right: 330px;
+    background-color: var(--green-color);
+    color: white;
+    text-decoration: none;
+}
+.form-control {
+    width: 400px;
+    background-color: rgb(241, 238, 238);
+}
+.navbar2{
+    background-color: rgb(58, 58, 58);
+}
+.nav-link{
+   color: white;
+}
+.customCorousel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.customCorousel .carousel-item {
+    width: 100%;
+    height: 550px;
+}
+.customCorousel .carousel-item img {
+    display: block;
+    width: 100% !important;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.container2{
+    background-color: #eaf3d8;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: center;
+}
+.img-fluid{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 70px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; /* Adjust spacing between images as needed */
+    margin-bottom: 100px;
+  }
+  
+  .image-grid div img {
+    width: 95%;
+    height: 300px; /* Adjust this height based on your layout preference */
+    object-fit: cover;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .img-card:hover{
+    transform:scale(1.05);
+  }
+.seasonal-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.seasonal-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #252525;
+}
+
+.ice-card {
+    background-color: #ffffff;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ice-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-info {
+    min-height: 85px;
+    padding: 12px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.product-info h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 28px;
+    font-size: 12px;
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+    color: white;
+}
+.image{
+    padding-left: 130px;
+}
+.image img{
+    width: 90%;
+    margin-top: 50px;
+}
+.ingredient-story-section {
+      background-color: #eaf3d8; /* Soft pastel green background */
+      font-family: 'Georgia', serif;
+      color: #222;
+    }
+
+    .ingredient-story-title {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      font-weight: normal;
+      color: #1a1a1a;
+    }
+
+    .icon-circle {
+      width: 70px;
+      height: 70px;
+      border: 2px solid #2d6a4f; /* Deep green border */
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #2d6a4f;
+    }
+
+    .ingredient-card h3 {
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      color: #1a1a1a;
+    }
+
+    .ingredient-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+    }
+    .image2 img{
+        width: 90%;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .brand-green-section {
+      background-color: #1ea33a; /* Vibrant brand green */
+      font-family: 'Georgia', serif;
+    }
+
+    .order-custom-btn {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Georgia', serif;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      border: none;
+    }
+
+    .available-title {
+      font-size: 1.5rem;
+      color: #ffffff;
+      font-weight: normal;
+      letter-spacing: 1px;
+      text-decoration: underline;
+    }
+
+    .delivery-logo {
+      height: 35px;
+      object-fit: contain;
+      filter: brightness(0) invert(1); 
+      opacity: 0.9;
+      transition: opacity 0.2s ease;
+    }
+footer{
+    color: white;
+    background-color: rgb(57, 57, 57);
+    padding: 30px;
+}
+.customFooter{}
+
+.customFooter h3{
+    font-size: 16px;
+    color: rgb(165, 165, 165);
+}
+.customFooter a{
+    color: rgb(226, 226, 226);
+    text-decoration: none
+}
+.customFooter a:hover{
+    color: var(--green-color);
+}
+.Socialicons{
+    
+}
